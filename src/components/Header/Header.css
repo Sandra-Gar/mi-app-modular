@@ -1,0 +1,37 @@
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto; /* Centra el bloque horizontalmente */
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav a { /* <Link> se renderiza como una <a>, así que podemos estilizarla */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s;
+}
+
+nav a:hover {
+  border-bottom-color: #61dafb; /* Color azul de React */
+}

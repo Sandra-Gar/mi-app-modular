@@ -1,0 +1,138 @@
+.todo-list-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-task-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-task-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.todo-list-container li:hover {
+  background-color: #f1f1f1;
+}
+
+.task-text {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.complete-btn,
+.delete-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.complete-btn {
+  color: #28a745;
+}
+
+.complete-btn.completed {
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.delete-btn {
+  color: #dc3545;
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.deleted {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.history-section h4 {
+  margin-top: 20px;
+}
+
+.history-toggle-btn {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.history-toggle-btn:hover {
+  background-color: #5a6268;
+}
+
+.complete-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #28a745;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.complete-btn:hover {
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.complete-btn.completed {
+  background-color: #28a745;
+  color: #fff;
+  border: 2px solid #28a745;
+}

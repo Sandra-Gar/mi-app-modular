@@ -1,0 +1,43 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Fondo claro para el cuerpo */
+    color: #333; /* Texto oscuro */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-icon {
+    font-size: 4rem;
+    color: #ff4d4d; /* Rojo brillante */
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4d4d; /* Rojo brillante */
+    margin-bottom: 20px;
+}
+
+.home-link {
+    padding: 10px 20px;
+    background-color: transparent; /* Sin fondo */
+    color: #61dafb; /* Color del texto */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid #61dafb; /* Borde azul */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #61dafb; /* Fondo azul al pasar el cursor */
+    color: #fff; /* Color blanco al pasar el cursor */
+}
