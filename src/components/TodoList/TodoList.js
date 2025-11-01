@@ -92,7 +92,7 @@ const TodoList = () => {
 
       {!showHistory ? (
         <>
-          <h3>Tareas (activas y completadas)</h3>
+          <h3>Tareas </h3>
           <ul>
             {visibleTasks.length > 0 ? (
               visibleTasks.map(task => (
